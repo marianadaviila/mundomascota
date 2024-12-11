@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+	--f7-theme-color: #FF0000;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #000; /*navbar link*/
+	--f7-navbar-text-color:#000;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+body{
+	font-family: "Poppins", sans-serif;
+}
+
+.img-fluid{
+	max-width: 100%;
+	padding-top: 10px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 5px 0;
+}
+
+.block-title{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.block-title-medium{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+#hero-home{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	border-radius: 10px;
+	margin: 25px 15px;
+}
+.btn-black{
+	background-color: #000;
+	color: var(--f7-navbar-bg-color);
+	font-size: 10px;
+	padding-right: 6px;
+	text-transform: capitalize;
+}
+.button-outline{
+	color: #000;
+	border-color: #000;
+	font-size: 9px;
+	padding-right: 6px;
+	border-width: thin;
+	text-transform: capitalize;
+}
+
+#hero-home .block{
+	margin-top: 0;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.block h2{
+	padding-top: 20px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.block p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.row-title .block-title{
+	margin-top: 0;
+}
+.opciones{
+	color: #000;
+
+}
+.material-symbols-outlined{
+	padding-left: 5px;
+}
+
+.brands-text{
+	text-align: center;
+}
+.img-espacio{
+	margin-bottom: 20px;
+}
+.position-relative{
+	position: relative;
+}
+
+.toolbar-nav{
+	font-size: 10px;
+	
+}
+.toolbar-nav .link{
+	text-transform: inherit;
+	color: #000;
+}
+
+#panel-menu .list{
+	font-size: 14px;
+}
+
+#panel-menu span{
+	color: #000;
+}
+
+
+.precio{
+	font-size: 14px;
+	color: var(--f7-navbar-text-color);
+	font-weight: 200;
+}
+
+.detalles{
+	padding-left: 20px;
+	color: #2634F1;
+	font-weight: 700;
+}
+
+.link{
+	color: #000;
+}
+
+
+/* Estilos específicos para carrito.html */
+.page[data-name="carrito"] .page-content {
+    padding: 16px;
+    background-color: #fff;
+    color: #000;
+}
+
+.page[data-name="carrito"] .block h2, 
+.page[data-name="carrito"] .block h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.page[data-name="carrito"] .list .item-media img {
+    border-radius: 8px;
+}
+
+.page[data-name="carrito"] .button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    background-color: #007bff;
+}
+
+/* Eukanuba Detalle */
+.page[data-name="eukanuba"] .page-content {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.page[data-name="eukanuba"] .content-title {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+.page[data-name="eukanuba"] .disponible {
+    color: #120088;
+    font-size: 18px;
+}
+
+.page[data-name="eukanuba"] .precio {
+    font-size: 24px;
+    color: #333;
+}
+
+.page[data-name="eukanuba"] .italica {
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+#hero-au{
+	background: rgb(85,85,85);
+    background: linear-gradient(0deg, rgba(85,85,85,1) 0%, rgba(0,0,0,1) 100%);
+	color: #fff;
+	padding: 12%;
+	text-align: center;
+}
+
+#hero-au h1{
+	font-size: 30px;
+}
+
+#hero-au .block{
+	margin-top: 0;
+}
+
+#quienesomos{
+	margin: 15px;
+}
+
+.qs1{
+	border-radius: 10px;
+}
+
+.qs2 {
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#ofrecemos {
+	margin: 0px 15px;
+}
+
+.card {
+	padding: 20px;
+	background-color: #EFEFEF;
+	border-radius: 12px;
+}
+
+#ofrecemos button{
+	width: 12rem;
+    margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	border-radius: 10px;
+	
+}
+
+#elegir{
+	margin: 20px;
+}
+
+#cta{
+	margin: 35px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
