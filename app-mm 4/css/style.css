@@ -154,7 +154,32 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #007bff;
 }
 
+/* Eukanuba Detalle */
+.page[data-name="eukanuba"] .page-content {
+    padding: 16px;
+    background-color: #fff;
+}
 
+.page[data-name="eukanuba"] .content-title {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+}
+
+.page[data-name="eukanuba"] .disponible {
+    color: #120088;
+    font-size: 18px;
+}
+
+.page[data-name="eukanuba"] .precio {
+    font-size: 24px;
+    color: #333;
+}
+
+.page[data-name="eukanuba"] .italica {
+    text-align: center;
+    padding: 10px 0;
+}
 
 
 #hero-au{
@@ -213,9 +238,6 @@ h1,h2,h3,h4,h5,h6,p{
 #cta{
 	margin: 35px;
 	text-align: center;
-}
-.navidad{
-	color: #fff;
 }
 
 

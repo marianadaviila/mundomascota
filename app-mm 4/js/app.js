@@ -32,9 +32,14 @@ var app = new Framework7({
 		name: 'carrito',
 		},
 		{
+		path: '/eukanuba/',
+        url: 'eukanuba.html',
+        name: 'eukanuba',
+		},
+		{
 		path: '/aboutus/',
-    	url: 'aboutus.html',
-		name: 'aboutus',
+        url: 'aboutus.html',
+        name: 'aboutus',
 		},
 		
 		
